@@ -1,0 +1,52 @@
+/*<!DOCTYPE html>
+<HTML>
+    <BODY>
+<table>
+    <tr>
+      <th>House ID</th>
+      <th>Location</th>
+    </tr>
+    <tr>
+      <td>GK-001</td>
+      <td>GISAGARA, Kansi</td>
+    </tr>
+    <tr>
+      <td>GM-001</td>
+      <td>GISAGARA, Mamba</td>
+    </tr>
+    <tr>
+      <td>HT-001</td>
+      <td>HUYE, Tumba</td>
+    </tr>
+  </table>
+</BODY>
+</HTML>*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Departments</title>
+</head>
+<body>
+    <h1>Departments</h1>
+    <ul id="departmentList"></ul>
+
+    <script>
+        var departments = ["cs", "cse", "others"];
+        var departmentList = document.getElementById("departmentList");
+
+        // Loop through the departments array
+        for (var i = 0; i < departments.length; i++) {
+            // Create a list item element
+            var listItem = document.createElement("li");
+
+            // Set the text content of the list item to the current department
+            listItem.textContent = departments[i];
+
+            // Append the list item to the unordered list
+            departmentList.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>

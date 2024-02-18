@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1f1d1d;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #206882;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Working hours section */
+  .working-hours {
+    margin-bottom: 30px;
+  }
+  
+  /* Contact information section */
+  .contact-info,
+  .contact-details {
+    margin-bottom: 30px;
+  }
+  
+  /* Contact form styles */
+  .contact-form form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #333;
+    color: #1e1d1d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Contact details styles */
+  .contact-details ul {
+    margin-left: 20px;
+  }
+  
+  /* Social media icons */
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #111010;
+    text-align: center;
+    font-size: 14px;
+    color: #1c2124;
+  }

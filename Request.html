@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Service Request</title>
+  <link rel="stylesheet" type="text/css" href="request.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, <span id="greeting"></span>!</h1>
+    <form id="serviceForm" action="insert.php"Method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name"  name="Names"required >
+
+      <label for="contact">Phone Number or Email:</label>
+      <input type="text" id="contact" required name="Email"required >
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address"required >
+
+      <label for="services">Select a Service:</label>
+      <select id="services" name="Service">
+        <option value="Select a service">Select a Services</option>
+        <option value="property_valuation" >Property Valuation</option>
+        <option value="real_estate_consultancy" >Real Estate Consultancy</option>
+        <option value="land_surveying" >Land Surveying</option>
+        <option value="project_property_right" >Project and Property Right</option>
+        <option value="property_agency_management">Property Agency and Management</option>
+        <option value="business_plan" >Business Plan</option>
+      </select>
+
+      <label for="paymentMethod">Select a Payment Method:</label>
+      <select id="paymentMethod" name="Method">
+        <option value="Select a payment medthod" >Select a payment Method</option>
+        <option value="bank_account" name="bank">Bank Account</option>
+        <option value="momo_code" name="momo">MOMo Code</option>
+      </select>
+      <input type="submit" value="submit">
+</body>
+</html>
